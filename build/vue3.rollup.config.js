@@ -8,9 +8,12 @@ export default [
   {
     input: 'src/Slider.vue',
     output: {
-      file: 'dist/slider.mjs',
-      format: 'esm',
-      exports: "named",
+      file: 'dist/slider.cjs',
+      format: 'cjs',
+      exports: 'auto',
+      globals: {
+        'vue': 'Vue',
+      }
     },
     plugins: [
       vue(),
