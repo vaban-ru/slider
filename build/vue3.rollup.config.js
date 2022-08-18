@@ -10,6 +10,7 @@ export default [
     output: {
       file: 'dist/slider.mjs',
       format: 'esm',
+      exports: "named",
     },
     plugins: [
       vue(),
