@@ -1,2 +1,2 @@
 import * as Slider from './Slider';
-export  {Slider};
+export default Slider;
